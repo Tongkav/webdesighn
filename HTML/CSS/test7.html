@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 700px;
+            height: 400px;
+            background-color: blue;
+            margin: auto;
+        }
+        .box .box1{
+            width: 100%;
+            height: 10%;
+            background-color: blueviolet;
+        }
+        .box .box2{
+            width: 100%;
+            height: 90%;
+            background-color: brown;
+            display: flex;
+        }
+       .box .box2-left{
+        width: 60%;
+        height: 100%;
+        background-color: aquamarine;
+       }
+       .box .box2-right{
+        width: 40%;
+        height: 100%;
+        background-color: blue;
+        display: flex;
+       }
+       .box .box2 .box2-left-up{
+        width: 100%;
+        height: 90%;
+        background-color: chocolate;
+       }
+       .box .box2 .box2-left-down{
+        width: 100%;
+        height: 10%;
+        background-color: crimson;
+       }
+       .box .box2 .box2-right .box2-right-right{
+        width: 50%;
+        height: 100%;
+        background-color: darkgoldenrod;
+        display: flex;
+       }
+       .box .box2 .box2-right .box2-right-left{
+        width: 50%;
+        height: 100%;
+        background-color: aquamarine;
+       }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1"><h1>header</h1></div>
+        <div class="box2">
+            <div class="box2-left">
+                <div class="box2-left-up"></div>
+                <div class="box2-left-down"></div>
+            </div>
+            <div class="box2-right">
+              <div class="box2-right-right"></div> 
+              <div class="box2-right-left"></div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

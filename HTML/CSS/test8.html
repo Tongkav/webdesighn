@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 800px;
+            height: 600px;
+            background-color: black;
+            margin: 0 auto;
+        }
+        .box .box1{
+            width: 100%;
+            height: 10%;
+            background-color: aqua;
+        }
+        .box .box2{
+            width: 100%;
+            height: 90%;
+            background-color: blue;
+            display: flex;
+            
+        }
+        .box .box2 .box2-left{
+            width: 50%;
+            height: 100%;
+            background-color: chartreuse;
+        }
+        .box .box2 .box2-right{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(255, 0, 115);
+        }
+        .box .box2 .box2-right-up{
+            width: 100%;
+            height: 70%;
+            background-color: blueviolet;
+        }
+        .box .box2 .box2-right-down{
+            width: 100%;
+            height: 30%;
+            background-color: rgb(49, 43, 226);
+        }
+        .box .box2 .box2-right-up .box2-right-up-up{
+            width: 100%;
+            height: 50%;
+            background-color: blueviolet;
+            display: flex;
+        }
+        .box .box2 .box2-right-up .box2-right-up-down{
+            width: 100%;
+            height: 50%;
+            background-color: rgb(226, 156, 43);
+        }
+        .box .box2 .box2-right-up-up .box2-right-up-up-left{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(0, 139, 63);
+        }
+        .box .box2 .box2-right-up-up .box2-right-up-up-right{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(0, 100, 139);
+        }
+        
+        .box .box2 .box2-right-up .box2-right-up-down{
+            width: 100%;
+            height: 50%;
+            background-color: rgb(255, 0, 0);
+            display: flex;
+        }
+        .box .box2 .box2-right-up-down .box2-right-up-down-left{
+            width: 50%;
+            height: 100%;
+            background-color: darkblue;
+        }
+        .box .box2 .box2-right-up-down .box2-right-up-down-right{
+            width: 50%;  
+            height: 100%;
+            background-color: rgb(139, 0, 58);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class=" box1"></div>
+        <div class="box2">
+            <div class="box2-left"></div>
+            <div class="box2-right">
+                <p></p>
+                <div class="box2-right-up">
+                    <div class="box2-right-up-up">
+                        <div class="box2-right-up-up-left"></div>
+                        <div class="box2-right-up-up-right"></div>
+                    </div>
+                    <div class="box2-right-up-down">
+                        <div class="box2-right-up-down-left"></div>
+                        <div class="box2-right-up-down-right"></div>
+                    </div>
+                </div>
+                <div class="box2-right-down"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.arrive{
+    width: 80%;
+    height: 80vh;
+    background-color:white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.arrive .box{
+    width:32%;
+    height: 100%;
+    /* background-color: blue; */
+    
+}
+.arrive .box .box1{
+    width: 100%;
+    height: 20%;
+    /* background-color: blueviolet; */
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.arrive .box .box1 h1{
+    font-size: 20px;
+    /* background-color: brown;   */
+    position: relative;
+}
+.arrive .box .box1 h1::before{
+    content: "";
+    width: 40%;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    bottom: -2%;
+}
+.arrive .box .box1 .pic{
+    width: 40%;
+    height: 100%;
+    background-color: pink;
+}
+.arrive .box .box1 .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.arrive .box .box1 .text{
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(58, 226, 43); */
+   
+}
+.arrive .box .box1 .text p{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.arrive .box .box1 .text span{
+    font-size: 20px;
+    color: gold;
+    padding: 5px 20px;
+}
+.arrive .box .box1 .text h2{
+    font-size: 30px;
+    padding: 10px 20px;
+}
+.arrive1{
+    width: 80%;
+    height: 60vh;
+    background-color: rgb(206, 21, 184);
+    margin: auto;
+    display: flex;
+    bottom: 10%;
+    margin-bottom: 50px;
+}
+.arrive1 .arr-box{
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+}
+.arrive1 .arr-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.arr-box .box-title{
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    margin: auto;
+   margin-top: 50px;
+   border-radius: 50%; 
+   position: relative;
+   text-align: center;
+}
+.arr-box .box-title p{
+    margin-bottom: 40%;
+}
+.arr-box .box-title h4{
+    padding: 43px 10px;
+}
+#tagh1{
+    position: absolute;
+    font-size: 50px;
+    /* background-color: aqua; */
+    font-size: 40px;
+    left: -21%;
+    top: 30%;
+    width: 300px;
+    font-family: "Playwrite AU VIC", cursive;
+}
+.arr-box span{
+    font-size: 38px;
+}
+.arr-box a::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    bottom: -2px;
+
+}
+.arr-box a{
+    margin-bottom: -20px;
+    position: relative;
+    align-items: center;
+   left: 250px;
+}
+.head{
+    width: 80%;
+    height: 80px;
+    /* background-color: pink; */
+    margin: auto;
+    display: flex;
+}
+.head .b1{
+    width: 25%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.b1 .icons{
+    font-size: 50px;
+    color: red;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ .b1 .icons{
+    width: 30%;
+    height: 100%;
+    /* background-color: yellow; */
+ }
+ .b1 .text-1{
+    width: 70%;
+    height: 100%;
+    /* background-color: blueviolet; */
+ }
+ .picture{
+    width: 100%;
+    height: 60vh;
+    background-color: pink;
+    display: flex;
+ }
+ .picture .bo1{
+    width: 16%;
+    height: 100%;
+    background-color: blue;
+    justify-content: space-between;
+     margin-right: 10px;
+     position: relative;
+     display: flex;
+ }
+ .picture .bo1 img{
+    width: 100%;
+    height: 100% ;
+    object-fit: cover;
+ }
+  .picture .bo1 .ig-icons{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(226, 43, 174, 0.463);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    display: none;
+ }
+ .picture .bo1:hover .ig-icons{
+    display: flex;
+    transition: 1S;
+ }
+ .picture .bo1 .ig-icons i{
+    font-size: 20px;
+    margin-top: 150px;
+    display: flex;
+    margin-left: 50px;
+ }
+
+
+
+
+
+
+
+
+
+ 

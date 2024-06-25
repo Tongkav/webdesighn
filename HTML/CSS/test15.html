@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 800px;
+            height: 600px;
+            background-color: rgb(142, 138, 138);
+            margin: auto;
+        }
+        .box .box1{
+            width: 100%;
+            height: 10%;
+            /* background-color: pink; */
+        }
+        .box .box2{
+            width: 100%;
+            height: 90%;
+            background-color:  rgb(208, 203, 203);
+           
+
+        }
+        .box .box2 .up{
+            width: 100%;
+            height: 48%;
+            /* background-color: chartreuse; */
+            padding: 20px; 
+            display: flex; 
+            justify-content: space-between;
+        }
+        .box .box2 .down{
+            width: 100%;
+            height: 48%;
+            background-color: rgb(211, 209, 209);
+            margin-top: 15px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .up .b1{
+            width: 46%;
+            height: 100%;
+            background-color: blue;
+            border: 20px solid rgb(52, 6, 98);
+        }
+        
+        .down .b1{
+            width: 46%;
+            height: 100%;
+            background-color: rgb(0, 255, 21);
+            border: 20px solid rgb(35, 7, 62);
+           
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .box1 ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1 ul li{
+            list-style: none;
+            background-color: rgb(211, 210, 223);
+            padding: 15px 30px;
+            box-shadow: 1px 2px 3px black;
+            border-radius: 5px;
+            margin-right: 50px;   
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div  class="box1">
+            <ul>
+                <li style="background-color: orange"><a href="#" style="background-color:orange">HOME</a></li>
+                <li><a href="#">sneaker</a></li>
+                <li><a href="#">jacket</a></li>
+                <li><a href="#">watch</a></li>
+                <li style="background-color: orange"><a href="#" style="background-color:orange;box-shadow: none;">T-shirt</a></li>
+            </ul>
+        </div>
+        <div class="box2">
+            <div class="up">
+                <div class="b1"><img src="../HTML/image/sneaker.html.jpg" alt=""></div>
+                <div class="b1"><img src="../HTML/image/jacket.html.jpg" alt=""></div>
+            </div>
+            <div class="down">
+                <div class="b1"><img src="../HTML/image/watch1.html.jpg" alt=""></div>
+                <div class="b1"><img src="../HTML/image/t-shirt1.html.jpg" alt=""></div></div>
+        </div>
+    </div>
+</body>
+</html>
+<div class="link">
+   
+

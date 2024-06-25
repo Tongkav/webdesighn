@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 600px;
+            height: 500px;
+            background-color: blueviolet;
+            margin: auto;
+            position: relative;
+        }
+        .pic{
+            width: 100%;
+            height: 100%;
+        }
+        .pic img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            box-shadow: 1px 2px 2px black;
+        }
+        .box span{
+            position: absolute;
+            background-color: pink;
+            top: 5%;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: white;
+            clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+        }
+        .text{
+            position: absolute;
+            width: 100%;
+            /* background-color:red; */
+            bottom: 0%;
+            padding: 20px 30px;
+        }
+        .text p{
+            color: blueviolet;
+        }
+        .love{
+            position: absolute;
+            width: 100%;
+            height: 20%;
+            /* background-color: aqua; */
+            top: 65%;
+            padding: 0px 30px;
+            overflow: hidden;
+            transition: all 0.4;
+        }
+        .love h1{
+            margin-bottom: 20px;
+        }
+        .box:hover .love{
+            top: 60%;
+            height: 30%;
+            transition: all 0.4;
+        }
+        .box:hover .love h1{
+            color: red;
+        }
+    </style>
+    <div class="box">
+        <div class="pic">
+            <img src="../HTML/image/sneaker2.html.jpg" alt="">
+        </div>
+        <span><p> sneaker</p></span>
+        <div class="love">
+            <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, incidunt!</p>
+        </div>
+        <div class="text"><p>ថ្ងៃនេះជាថ្ងៃព្រហស្ប</p></div>
+    </div>
+    
+</body>
+</html>

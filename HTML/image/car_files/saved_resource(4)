@@ -1,0 +1,7 @@
+      
+   		 var GM_z3rd_1709623056 = '\x3Cscript\x3E\x3C/script\x3E';
+   		 var GM_zid_1709623056  = 1709623056;
+   		 var GM_ZoneId  = 1709623056;
+		 AdSeax.setCookie('_a3rd1709623056', '0-8', 365);
+		document.write(GM_z3rd_1709623056);
+		
